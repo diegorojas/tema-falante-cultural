@@ -1,4 +1,4 @@
-sos<?php
+<?php
 /**
  * Template name: Pagina Inicial
  * @package WordPress
@@ -33,12 +33,12 @@ get_header(); ?>
 						</div>
 						
 								<div id="home-bloco4">
-					<h1 class="home-heading"><a href="<?php echo home_url( '/categoria/cursos-livres/' ); ?>" class="classificados-heading">CLASSIFICADOS</a></h1>
+					<h1 class="home-heading"><a href="<?php echo home_url( '/categoria/classificados/' ); ?>" class="classificados-heading">CLASSIFICADOS</a></h1>
 								<?php
 								  // Adiciona o query de Classificados do Falante
-								 get_template_part('loop-cursoslivres');
+								 get_template_part('loop-classificados');
 								?>
-								<h1 class="home-heading "><a href="<?php echo home_url( '/categoria/cursos-livres/' ); ?>" class="classificados-heading">VER TODOS</a></h1>
+								<h1 class="home-heading "><a href="<?php echo home_url( '/categoria/classificados/' ); ?>" class="classificados-heading">VER TODOS</a></h1>
 					</div>
 	
 												
