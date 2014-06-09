@@ -33,7 +33,7 @@ get_header(); ?>
 						</div>
 						
 								<div id="home-bloco4">
-					<h1 class="home-heading"><a href="<?php echo home_url( '/categoria/cursos-livres/' ); ?>" class="classificados-heading">CLASSIFICADOS</a></h1>
+					<h1 class="home-heading"><a href="<?php echo home_url( '/categoria/cursos-livres/' ); ?>" class="classificados-heading">CURSOS LIVRES</a></h1>
 								<?php
 								  // Adiciona o query de Classificados do Falante
 								 get_template_part('loop-cursoslivres');
